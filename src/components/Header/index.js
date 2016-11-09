@@ -1,5 +1,7 @@
 import React from 'react';
+/* eslint-disable */
 import logo from './images/logo_small_v01.svg';
+/* eslint-enable */
 
 class HomePage extends React.Component {
   render() {
