@@ -5,7 +5,6 @@ class HomePage extends React.Component {
     return (
       <div className="jumbotron">
         <h2>pDevelopment</h2>
-        <hr>
         <ul>
           <li>GitHub</li>
           <li>LinkedIn</li>
