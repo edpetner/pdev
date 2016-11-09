@@ -8,7 +8,11 @@ class HomePage extends React.Component {
     return (
       <div className="jumbotron">
         <h2>pDevelopment</h2>
-        <img src={logo} />
+        <img
+          src={logo}
+          width="500px"
+          height="500px"
+        />
         <ul>
           <li>GitHub</li>
           <li>LinkedIn</li>
