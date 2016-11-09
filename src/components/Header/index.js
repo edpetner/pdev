@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../images/logo_small_v01.svg';
+import logo from './images/logo_small_v01.svg';
 
 class HomePage extends React.Component {
   render() {
