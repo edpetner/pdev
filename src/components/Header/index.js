@@ -1,11 +1,12 @@
 import React from 'react';
+import logo from '../../images/logo_small_v01.svg';
 
 class HomePage extends React.Component {
   render() {
     return (
       <div className="jumbotron">
         <h2>pDevelopment</h2>
-        <img src="../../images/logo_small_v01.svg" />
+        <img src={logo} />
         <ul>
           <li>GitHub</li>
           <li>LinkedIn</li>
