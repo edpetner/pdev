@@ -1,7 +1,7 @@
 import React from 'react';
 import FontAwesome from 'react-fontawesome';
 /* eslint-disable */
-import logo from './images/simple_logo.svg';
+import logo from './images/full_logo.svg';
 /* eslint-enable */
 
 class Header extends React.Component {
@@ -10,7 +10,7 @@ class Header extends React.Component {
       <div className="headerElement">
         <img
           src={logo}
-          height="200px"
+          height="300px"
         />
         <div>
           <a href="http://edpetner.deviantart.com/">

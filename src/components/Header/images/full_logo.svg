@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="982" height="332" viewBox="0 0 982 332">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #000;
+        stroke-linejoin: round;
+        stroke-width: 10px;
+        font-size: 350px;
+        fill: #ffde00;
+      }
+
+      .cls-1, .cls-2 {
+        font-family: "Source Code Pro";
+        font-weight: 800;
+        font-variant: small-caps;
+      }
+
+      .cls-2 {
+        font-size: 200px;
+      }
+    </style>
+  </defs>
+  <text id="petner" class="cls-1" x="39.344" y="209.586">petner</text>
+  <text id="development" class="cls-2" x="27.875" y="312.82">development</text>
+</svg>
