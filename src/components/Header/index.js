@@ -16,7 +16,7 @@ class Header extends React.Component {
           <a href="http://edpetner.deviantart.com/">
             <FontAwesome
               className="icon"
-              name="fa-deviantart"
+              name="deviantart"
             />
           </a>&nbsp;|&nbsp;
           <a href="https://github.com/edpetner">
