@@ -23,7 +23,6 @@ a.active {
 
 .headerElement {
   width: 100%;
-  height: 240px;
   text-align: center;
   padding: 10px;
 }
@@ -33,7 +32,6 @@ a.active {
 
 .mainContent {
   background-color: #FFF;
-  display: flex;
   margin-bottom: 10px;
   box-shadow: rgba(0,0,0,0.117) 0px 1px 6px, rgba(0,0,0,0.117) 0px 1px 4px;
   padding: 10px;

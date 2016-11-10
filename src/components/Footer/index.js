@@ -11,6 +11,6 @@ const Footer = () => {
         height="100px" />
     </footer>
   );
-}
+};
 
 export default Footer;
