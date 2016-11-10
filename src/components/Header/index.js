@@ -7,9 +7,10 @@ import logo from './images/full_logo.svg';
 class Header extends React.Component {
   render() {
     return (
-      <div className="headerElement">
-        <img
-          src={logo}
+      <div className="header">
+        <object
+          data={logo}
+          type="image/svg+xml"
           height="250px"
         />
         <div>

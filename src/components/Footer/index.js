@@ -5,9 +5,10 @@ import icon from './images/simple_logo.svg';
 
 const Footer = () => {
   return (
-    <footer>
-      <img
-        src={icon}
+    <footer className="footer">
+      <object
+        data={icon}
+        type="image/svg+xml"
         height="100px" />
     </footer>
   );
