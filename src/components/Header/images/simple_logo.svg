@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #000;
+        stroke-linejoin: round;
+        stroke-width: 5px;
+        font-size: 1000px;
+        fill: #ffde00;
+        font-family: "Source Code Pro";
+        font-weight: 800;
+        font-variant: small-caps;
+      }
+    </style>
+  </defs>
+  <text id="P" class="cls-1" x="183.867" y="824.734">P</text>
+</svg>

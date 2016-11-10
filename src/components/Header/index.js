@@ -1,7 +1,6 @@
 import React from 'react';
 /* eslint-disable */
-import logo from './images/logo_small_v01.svg';
-import smallLogo from './images/simple_logo.png';
+import logo from './images/simple_logo.svg';
 /* eslint-enable */
 
 class Header extends React.Component {
@@ -9,7 +8,7 @@ class Header extends React.Component {
     return (
       <div className="headerElement">
         <img
-          src={smallLogo}
+          src={logo}
           height="200px"
         />
       </div>
