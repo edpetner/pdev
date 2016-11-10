@@ -13,10 +13,10 @@ class Header extends React.Component {
           height="200px"
         />
         <div>
-          <a href="mailto:edward.petner@gmail.com">
+          <a href="http://edpetner.deviantart.com/">
             <FontAwesome
               className="icon"
-              name="fa-envelope-square"
+              name="fa-deviantart"
             />
           </a>&nbsp;|&nbsp;
           <a href="https://github.com/edpetner">
