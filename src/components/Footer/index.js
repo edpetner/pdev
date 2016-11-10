@@ -1,6 +1,6 @@
 import React from 'react';
 /* eslint-disable */
-import icon from './images/simple_logo.svg';
+import icon from './images/logo_v2.svg';
 /* eslint-enable */
 
 const Footer = () => {
