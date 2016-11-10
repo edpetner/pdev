@@ -31,6 +31,10 @@ a.active {
 }
 
 .mainContent {
+  padding: 10px;
+}
+
+.story {
   background-color: #FFF;
   margin-bottom: 10px;
   box-shadow: rgba(0,0,0,0.117) 0px 1px 6px, rgba(0,0,0,0.117) 0px 1px 4px;

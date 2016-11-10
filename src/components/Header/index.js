@@ -10,7 +10,7 @@ class Header extends React.Component {
       <div className="headerElement">
         <img
           src={logo}
-          height="300px"
+          height="250px"
         />
         <div>
           <a href="http://edpetner.deviantart.com/">
