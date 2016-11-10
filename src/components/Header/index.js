@@ -16,15 +16,15 @@ class Header extends React.Component {
           <a href="mailto:edward.petner@gmail.com">
             <FontAwesome
               className="icon"
-              name="envelop-square"
+              name="fa-envelope-square"
             />
-          </a>
+          </a>&nbsp;|&nbsp;
           <a href="https://github.com/edpetner">
             <FontAwesome
               className="icon"
               name="github-square"
             />
-          </a>
+          </a>&nbsp;|&nbsp;
           <a href="https://www.linkedin.com/in/edwardpetner">
             <FontAwesome
               className="icon"
