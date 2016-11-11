@@ -19,7 +19,7 @@ const AppLinks = ({ display }) => {
 };
 
 AppLinks.propTypes = {
-  display: React.PropTypes.bool.isRequired,
+  display: React.PropTypes.bool.isRequired
 };
 
 export default AppLinks;
