@@ -12,6 +12,7 @@ class FullPage extends React.Component {
       // labelValue: "Navigation"
       labelValue: "my navigation"
     }
+    this.updateLabel = this.updateLabel.bind(this);
   }
   updateLabel(e) {
     if (e.type === "mouseout"){
@@ -42,8 +43,8 @@ class FullPage extends React.Component {
                 className="icon-footer"
                 name="folder"
                 id="my resume"
-                onMouseOver={this.updateLabel.bind(this)}
-                onMouseOut={this.updateLabel.bind(this)}
+                onMouseOver={this.updateLabel}
+                onMouseOut={this.updateLabel}
               />
             </a>&nbsp;
             <a href="http://edpetner.deviantart.com/">
@@ -51,8 +52,8 @@ class FullPage extends React.Component {
                 className="icon-footer"
                 name="deviantart"
                 id="my DeviantArt"
-                onMouseOver={this.updateLabel.bind(this)}
-                onMouseOut={this.updateLabel.bind(this)}
+                onMouseOver={this.updateLabel}
+                onMouseOut={this.updateLabel}
               />
             </a>&nbsp;
             <a href="https://github.com/edpetner">
@@ -60,8 +61,8 @@ class FullPage extends React.Component {
                 className="icon-footer"
                 name="github-square"
                 id="my GitHub"
-                onMouseOver={this.updateLabel.bind(this)}
-                onMouseOut={this.updateLabel.bind(this)}
+                onMouseOver={this.updateLabel}
+                onMouseOut={this.updateLabel}
               />
             </a>&nbsp;
             <a href="https://www.linkedin.com/in/edwardpetner">
@@ -69,8 +70,8 @@ class FullPage extends React.Component {
                 className="icon-footer"
                 name="linkedin-square"
                 id="my LinkedIn"
-                onMouseOver={this.updateLabel.bind(this)}
-                onMouseOut={this.updateLabel.bind(this)}
+                onMouseOver={this.updateLabel}
+                onMouseOut={this.updateLabel}
               />
             </a>
           </div>
