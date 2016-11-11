@@ -13,28 +13,28 @@ class Header extends React.Component {
           type="image/svg+xml"
           height="200px"
         />
-        <div>
+        <div className="icon-bar">
           <a href="https://goo.gl/XGvu4j">
             <FontAwesome
-              className="icon-header"
+              className="icon-footer"
               name="folder"
             />
-          </a>&nbsp;
+          </a>&nbsp;&nbsp;&nbsp;
           <a href="http://edpetner.deviantart.com/">
             <FontAwesome
-              className="icon-header"
+              className="icon-footer"
               name="deviantart"
             />
-          </a>&nbsp;
+          </a>&nbsp;&nbsp;&nbsp;
           <a href="https://github.com/edpetner">
             <FontAwesome
-              className="icon-header"
+              className="icon-footer"
               name="github-square"
             />
-          </a>&nbsp;
+          </a>&nbsp;&nbsp;&nbsp;
           <a href="https://www.linkedin.com/in/edwardpetner">
             <FontAwesome
-              className="icon-header"
+              className="icon-footer"
               name="linkedin-square"
             />
           </a>
