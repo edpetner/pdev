@@ -11,7 +11,7 @@ class Header extends React.Component {
         <object
           data={logo}
           type="image/svg+xml"
-          height="250px"
+          height="200px"
         />
         <div>
           <a href="https://goo.gl/XGvu4j">
