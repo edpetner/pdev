@@ -30,7 +30,9 @@ class Header extends React.Component {
             <FontAwesome
               className="icon-footer"
               name="bars"
+              /* eslint-disable */
               onClick={this.toggleApps.bind(this)}
+              /* eslint-enable */
             />&nbsp;&nbsp;&nbsp;
           <a href="https://goo.gl/XGvu4j">
             <FontAwesome
