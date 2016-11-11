@@ -11,9 +11,9 @@ const FolioLinks = ({ labelValue }) => {
       <strong className={`linksLabel ${animateClass}`}>{labelValue}</strong>
     );
 };
-//
-// FolioLinks.propTypes = {
-//   updateLabel: React.PropTypes.func.isRequired
-// };
+
+FolioLinks.propTypes = {
+  labelValue: React.PropTypes.string.isRequired
+};
 
 export default FolioLinks;
