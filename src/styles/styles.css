@@ -1,13 +1,12 @@
 /* Styles */
 body {
-  background-color:black !important;
-  background-image:
-  radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
-  radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
-  radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
-  radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px) !important;
-  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px !important;
-  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px !important;
+  background:
+  radial-gradient(black 15%, transparent 16%) 0 0,
+  radial-gradient(black 15%, transparent 16%) 8px 8px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px !important;
+  background-color:#282828 !important;
+  background-size:16px 16px !important;
 }
 #app {
   font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
