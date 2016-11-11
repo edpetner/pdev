@@ -18,6 +18,7 @@ class Header extends React.Component {
       showApps: !this.state.showApps
     });
   }
+
   render() {
     return (
       <div className="header">
@@ -31,6 +32,7 @@ class Header extends React.Component {
               className="icon-footer"
               name="bars"
               /* eslint-disable */
+              onMouseOver={this.toggleApps.bind(this)}
               onClick={this.toggleApps.bind(this)}
               /* eslint-enable */
             />&nbsp;&nbsp;&nbsp;
@@ -59,7 +61,11 @@ class Header extends React.Component {
             />
           </a>
         </div>
-        <AppLinks display={this.state.showApps}/>
+        <AppLinks display={this.state.showApps}
+        /* eslint-disable */
+        displayOff={this.toggleApps.bind(this)}
+        /* eslint-enable */
+        />
       </div>
     );
   }

@@ -58,6 +58,7 @@ body {
   padding-left: 10px;
   align-self: center;
   flex: 1;
+  cursor: pointer;
 }
 .footer-logo {
   flex: 2;
@@ -77,14 +78,32 @@ body {
   border-top: 1px solid black;
 }
 
+
 .icon-bar {
   text-align: left;
   background-color: #6096BA;
   padding: 2.5px;
 }
 
+@keyframes bounce {
+  0% {
+    color: red;
+  }
+  40% {
+    color: white;
+  }
+  100% {
+    color: white;
+  }
+}
+#document:hover {
+  animation: bounce 1s;
+}
 .icon-header {
   font-size: 30px !important;
+}
+.icon-header:hover {
+  animation: bounce 1s !important;
 }
 .icon-footer {
   font-size: 40px !important;
@@ -92,6 +111,7 @@ body {
 }
 .icon-footer:hover {
   color: white;
+  animation: bounce 1s !important;
 }
 
 .story-title {
