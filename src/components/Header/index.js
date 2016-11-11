@@ -14,21 +14,27 @@ class Header extends React.Component {
           height="250px"
         />
         <div>
+          <a href="https://goo.gl/XGvu4j">
+            <FontAwesome
+              className="icon-header"
+              name="folder"
+            />
+          </a>&nbsp;
           <a href="http://edpetner.deviantart.com/">
             <FontAwesome
-              className="icon"
+              className="icon-header"
               name="deviantart"
             />
-          </a>&nbsp;|&nbsp;
+          </a>&nbsp;
           <a href="https://github.com/edpetner">
             <FontAwesome
-              className="icon"
+              className="icon-header"
               name="github-square"
             />
-          </a>&nbsp;|&nbsp;
+          </a>&nbsp;
           <a href="https://www.linkedin.com/in/edwardpetner">
             <FontAwesome
-              className="icon"
+              className="icon-header"
               name="linkedin-square"
             />
           </a>

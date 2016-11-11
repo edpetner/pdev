@@ -29,20 +29,41 @@ body {
   padding: 10px;
 }
 .footer {
-  /*flex: 0 1 auto;*/
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
   background-color: #6096BA;
 }
+.footer-icons {
+  padding-left: 10px;
+  align-self: center;
+  flex: 1;
+}
+.footer-logo {
+  flex: 2;
+}
+.vert-split {
+  display: flex;
+}
+.story-column-left {
+  flex: 1;
+  padding-right: 10px;
+}
+.story-column-right {
+  flex: 1;
+  padding-left: 10px;
+}
+.story-footer {
+  border-top: 1px solid black;
+}
 
-
-.icon {
-  font-size: 40px !important;
+.icon-header {
+  font-size: 30px;
+}
+.icon-footer {
+  font-size: 40px;
+  color: black;
+}
+.icon-footer:hover {
+  color: white;
 }
 
 .story-title {
