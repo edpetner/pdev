@@ -1,19 +1,37 @@
 import React from 'react';
 import FontAwesome from 'react-fontawesome';
+import AppLinks from '../AppLinks';
 /* eslint-disable */
 import logo from './images/full_logo.svg';
 /* eslint-enable */
 
 class Header extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      showApps: false
+    };
+  }
+
+  toggleApps() {
+    this.setState({
+      showApps: !this.state.showApps
+    });
+  }
   render() {
     return (
       <div className="header">
         <object
           data={logo}
           type="image/svg+xml"
-          height="200px"
+          height="180px"
         />
         <div className="icon-bar">
+            <FontAwesome
+              className="icon-footer"
+              name="bars"
+              onClick={this.toggleApps.bind(this)}
+            />&nbsp;&nbsp;&nbsp;
           <a href="https://goo.gl/XGvu4j">
             <FontAwesome
               className="icon-footer"
@@ -38,8 +56,8 @@ class Header extends React.Component {
               name="linkedin-square"
             />
           </a>
-
         </div>
+        <AppLinks display={this.state.showApps}/>
       </div>
     );
   }
