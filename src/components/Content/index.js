@@ -72,7 +72,7 @@ const Content = () => {
                 </ul>
               </li>
               <li>
-                <strong>Go Untethered/strong>
+                <strong>Go Untethered</strong>
                 <ul>
                   <li>Freelance Developer - New York, NY</li>
                   <li>Built Rails API for subscription travel program</li>
