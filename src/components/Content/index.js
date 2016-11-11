@@ -62,7 +62,33 @@ const Content = () => {
             >
               Experience
             </h4>
-
+            <ul>
+              <li>
+                <strong>Theatre Galleria</strong>
+                <ul>
+                  <li>Lead Developer - New York, NY</li>
+                  <li>Participated in NYU Summer Launchpad</li>
+                  <li>Built out schema for new e-commerce platform</li>
+                </ul>
+              </li>
+              <li>
+                <strong>Go Untethered/strong>
+                <ul>
+                  <li>Freelance Developer - New York, NY</li>
+                  <li>Built Rails API for subscription travel program</li>
+                  <li>Designed front-end interface using Flexbox & SASS</li>
+                </ul>
+              </li>
+              <li>
+                <strong>General Assembly</strong>
+                <ul>
+                  <li>Code Mentor - New York, NY</li>
+                  <li>Provided comprehensive code reviews for students</li>
+                  <li>Reviewed student work and provided assitance on projects</li>
+                  <li>Lead bonus lessons for students</li>
+                </ul>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
