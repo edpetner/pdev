@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react';
 
-const AppLinks = ({ display, displayOff }) => {
+const AppLinks = ({ display }) => {
   if (display) {
     return (
       <div

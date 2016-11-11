@@ -62,9 +62,6 @@ class Header extends React.Component {
           </a>
         </div>
         <AppLinks display={this.state.showApps}
-        /* eslint-disable */
-        displayOff={this.toggleApps.bind(this)}
-        /* eslint-enable */
         />
       </div>
     );

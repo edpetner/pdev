@@ -1,0 +1,157 @@
+/* Styles */
+
+.centerPage {
+  display: flex;
+  align-items: center;
+  padding-top: 10vh;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.logoContainer {
+  width: 200px;
+  height: 200px;
+  border: 1px solid white;
+  border-radius: 50%;
+  box-shadow: rgba(0,0,0,0.117) 0px 0px 6px, rgba(0,0,0,0.117)
+}
+.iconLinks {
+  padding-top: 10vh;
+}
+
+.labelEl {
+  position: fixed;
+
+}
+
+
+body {
+  background:
+  radial-gradient(black 15%, transparent 16%) 0 0,
+  radial-gradient(black 15%, transparent 16%) 8px 8px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px !important;
+  background-color:#282828 !important;
+  background-size:16px 16px !important;
+}
+#app {
+  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #4d4d4d;
+  /*background-color: #E7ECEF;*/
+  min-width: 550px;
+  max-width: 850px;
+  margin: 0 auto;
+}
+.appNavs {
+  text-align: left;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.appNavLinks {
+  padding: 5px;
+  font-weight: 600;
+  color: black;
+}
+.appNavLinks:hover {
+  border-top: 1px solid black;
+  background-color: #6096BA;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+}
+.flexMaster {
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;;
+}
+.header {
+  /*flex: 0 1 auto;*/
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #6096BA;
+  box-shadow: rgba(0,0,0,0.117) 0px 0px 6px, rgba(0,0,0,0.117) 0px 0px 4px;
+}
+.content {
+  flex: 1 1 auto;
+  padding: 10px;
+}
+.footer {
+  display: flex;
+  background-color: #6096BA;
+}
+.footer-icons {
+  padding-left: 10px;
+  align-self: center;
+  flex: 1;
+  cursor: pointer;
+}
+.footer-logo {
+  flex: 2;
+}
+.vert-split {
+  display: flex;
+}
+.story-column-left {
+  flex: 1;
+  padding-right: 10px;
+}
+.story-column-right {
+  flex: 1;
+  padding-left: 10px;
+}
+.story-footer {
+  border-top: 1px solid black;
+}
+
+
+.icon-bar {
+  text-align: left;
+  background-color: #6096BA;
+  padding: 2.5px;
+}
+
+@keyframes bounce {
+  40% {
+    color: black;
+  }
+  100% {
+    color: white;
+  }
+}
+#document:hover {
+  animation: bounce 1s;
+}
+.icon-header {
+  font-size: 30px !important;
+}
+.icon-header:hover {
+  animation: bounce 1s !important;
+}
+.icon-footer {
+  font-size: 40px !important;
+  color: white;
+}
+.icon-footer:hover {
+  color: black;
+  animation: bounce 1s !important;
+}
+
+.story-title {
+  border-bottom: 1px solid black;
+}
+.linksLabel {
+  color: white;
+}
+.comeIn {
+  animation: bounce 1s !important;
+  color: white;
+}
+
+.story {
+  width: 60vw;
+  background-color: #FFF;
+  margin-bottom: 10px;
+  box-shadow: rgba(0,0,0,0.117) 0px 1px 6px, rgba(0,0,0,0.117) 0px 1px 4px;
+  padding: 10px;
+  margin-top: 20px;
+}

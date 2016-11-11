@@ -1,11 +1,13 @@
 import React from 'react';
 import FontAwesome from 'react-fontawesome';
+import FullPage from '../FullPage';
 
 const Content = () => {
   return (
     <div
       className="content"
     >
+      <FullPage />
       <div className="story">
         <h4 className="story-title">Who am I?</h4>
         <p>
