@@ -1,7 +1,9 @@
 import React, { PropTypes } from 'react';
+/* eslint-disable */
 import smallLogo from '../Footer/images/logo_v2.svg';
 import smallLogoV2 from './small_v2.svg';
 import logo from '../Header/images/full_logo.svg';
+/* eslint-enable */
 import LinkLabler from './LinkLabler';
 import FontAwesome from 'react-fontawesome';
 
